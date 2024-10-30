@@ -105,9 +105,27 @@ class User(db.Model):
 
 定义 python 的数据模型
 
-创建表、约束条件和索引的操作写在 CREATE_TABLE.sql 中
-插入数据的操作写在 INSERT_DATA.sql 中
+数据库用 Flask-Migrate 管理
 
+需要创建表的使用，生成迁移文件
+
+```bash
+flask db migrate -m "CREATE_***_TABLE"
+# or
+flask db migrate -m "CREATE_***_INDEX"
+```
+
+更新结果到数据库中
+
+```bash
+flask db upgrade
+```
+
+回滚最近的一次迁移操作
+
+```bash
+flask db downgrade
+```
 
 ### 测试 API
 
