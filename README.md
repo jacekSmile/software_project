@@ -111,7 +111,7 @@ class User(db.Model):
 
 ### 测试 API
 
-![Thunder Client](image.png)
+![Thunder Client](image/image.png)
 
 ### 基本 git 操作
 

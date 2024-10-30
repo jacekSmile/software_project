@@ -3,7 +3,7 @@
 ## 用户登录注册模块 loginRegister
 ### 登录 submitLogin
 
-### API: `/api/user/account/login`
+### API: `/user/account/login`
 
 **方法:** `POST`
 
