@@ -118,5 +118,6 @@ class User(db.Model):
 更改代码前，执行 `git pull` 获取最新的代码
 更改完成后，执行 `git add --all` 添加所有更改的文件
 再执行 `git commit -m "更改信息"` 更改信息用翻译器为英文，要体现更改的东西
+可以多次 commit，一次 push
 commit 结束后，使用 `git push` 将本地的代码同步到 github 上
 如果 `git push` 的操作出现问题，按照提示 `git pull` 处理好冲突后，重新 `git push`
